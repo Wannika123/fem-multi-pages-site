@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Coffeeroasters subscription site solution
 
-## Getting Started
+This is a solution to the [Coffeeroasters subscription site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/coffeeroasters-subscription-site-5Fc26HVY6). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### The challenge
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Users should be able to:
 
-## Learn More
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements throughout the site
+- Make selections to create a coffee subscription and see an order summary modal of their choices
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- desktop
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Screen Shot 2567-07-05 at 13 53 27](https://github.com/Wannika123/fem-multi-pages-site/assets/142564014/a4d16915-129d-4feb-9c76-307c319081c0)
 
-## Deploy on Vercel
+- tablet 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Screen Shot 2567-07-05 at 13 54 23](https://github.com/Wannika123/fem-multi-pages-site/assets/142564014/64e57bb6-421d-4063-9f9e-57764b0eed25)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- mobile 
+
+![Screen Shot 2567-07-05 at 13 57 45](https://github.com/Wannika123/fem-multi-pages-site/assets/142564014/cc35b5e2-e637-4120-90a8-cc65dae4bf31)
+
+- dynamic part
+
+![Screen Shot 2567-07-05 at 13 58 45](https://github.com/Wannika123/fem-multi-pages-site/assets/142564014/711ff3ff-ce13-4332-801a-eab542369f64)
+
+### Links
+
+- Solution URL: [GitHub repo](https://github.com/Wannika123/fem-multi-pages-site)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- TypeScript
+
+### What I learned
+
+This is my first NextJS project. From the point of view of NextJS, this is very basic. But there're some frustrating layouts, and the dynamic part is not easy at all. For me, this is a tough project.
+
+### Useful resources
+
+- [Example resource 1](https://www.joshwcomeau.com/react/the-perils-of-rehydration/) - An amazing article that explains server-side rendering, by Josh Comeau.
+
+## Author
+
+- Frontend Mentor - [@Wannika123](https://www.frontendmentor.io/profile/Wannika123)
