@@ -54,7 +54,7 @@ export default function DetailWrapper({
     }, [focusedTopic])
 
     return (
-        <div key={item.question} className={styles.container}>
+        <div className={styles.container}>
             <div 
                 onClick={showHideDetail} 
                 className={customerChoices[0] === 'Capsule' && index === 3 

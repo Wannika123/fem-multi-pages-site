@@ -26,7 +26,7 @@ export default function CreatePlan() {
         return (
             <div style={{ color: textColor }}>
                 <p className={styles['summary-text']}>
-                    "I drink my coffee {customerChoices[0] === "Capsule" ? 'using' : 'as'}{' '}
+                    &quot;I drink my coffee {customerChoices[0] === "Capsule" ? 'using' : 'as'}{' '}
                     <span>{customerChoices[0] ? customerChoices[0] : '_____'}</span>
                     , with a{' '}
                     <span>{customerChoices[1] ? customerChoices[1] : '_____'}</span>{' '}
@@ -43,7 +43,7 @@ export default function CreatePlan() {
                         </>
                     }
                     , sent to me{' '}
-                    <span>{customerChoices[4] ? customerChoices[4] : '_____'}</span>."
+                    <span>{customerChoices[4] ? customerChoices[4] : '_____'}</span>.&quot;
                 </p>
             </div>
         )

@@ -101,7 +101,9 @@ export default function Details(props: DetailsProps) {
     return (
         <div>
             {DETAILS.map((item, index) => (
-                <DetailWrapper item={item} index={index} {...props} />
+                <div key={item.question}>
+                    <DetailWrapper item={item} index={index} {...props} />
+                </div>
             ))}
         </div>
     )
