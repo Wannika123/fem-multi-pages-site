@@ -1,0 +1,41 @@
+.intro,
+.how-it-works {
+    margin-bottom: 120px;
+}
+
+.how-it-works {
+    width: 100%;
+    background-color: var(--dark-grey-blue);
+    border-radius: 10px;
+    padding: 80px 0;
+}
+
+.how-it-works > div {
+    width: 88%;
+    margin: 0 auto;
+}
+
+@media (min-width: 45rem) {
+    .intro,
+    .how-it-works {
+        margin-bottom: 144px;
+    }
+    .how-it-works {
+        padding: 112px 0 96px 0;
+    }
+}
+
+@media (min-width: 69rem) {
+    .intro {
+        margin-bottom: 168px;
+    }
+    .how-it-works {
+        width: 1280px;
+        margin: 0 auto;
+        padding:  100px 150px 100px 85px;
+        margin-bottom: 168px;
+    }
+    .how-it-works > div {
+        width: 100%;
+    }
+}

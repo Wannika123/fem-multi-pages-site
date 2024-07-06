@@ -1,0 +1,53 @@
+.container {
+    position: relative;
+}
+
+.text-container {
+    color: var(--light-cream-bg);
+    text-align: center;
+    height: fit-content;
+    margin: auto 0;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    padding: 0 24px;
+}
+
+.text-container h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-container p {
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    opacity: 0.8;
+}
+
+@media (min-width: 45rem) {
+    .text-container {
+        width: 55%;
+        padding: 0;
+        left: 58px;
+        text-align: left;
+    }
+    .text-container h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 69rem) {
+    .text-container {
+        width: 40%;
+        left: 85px;
+    }
+    .text-container h2 {
+        font-size: 2.5rem;
+    }
+    .text-container p {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+}

@@ -1,0 +1,84 @@
+.dialog::backdrop {
+    background-color: #00000090;
+}
+
+.dialog {
+    width: 88%;
+    max-width: 33.75rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.header-container {
+    background-color: var(--dark-grey-blue);
+    padding: 1.75rem 24px;
+    color: #fff;
+}
+
+.header-container h2 {
+    font-size: 1.75rem;
+}
+
+.text-container {
+    color: var(--dark-grey-blue);
+    opacity: 0.8;
+    padding: 40px 24px 24px 24px;
+}
+
+.paragraph {
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    margin-top: 0.5rem;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 24px;
+}
+
+.button-container > div {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--dark-grey-blue);
+    font-family: "Fraunces";
+}
+
+.button-container button {
+    color: var(--light-cream-bg);
+    background-color: var(--dark-cyan);
+    border: none;
+    border-radius: 6px;
+    padding: 1rem 64px;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.button-container button:hover {
+    cursor: pointer;
+    background-color: #66d2cf;
+}
+
+@media (min-width: 45rem) {
+    .header-container {
+        padding: 2.75rem 56px;
+    }
+    .text-container {
+        padding: 3.5rem 56px 3rem 56px;
+    }
+    .paragraph {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 56px;
+        gap: 0.75rem;
+    }
+    .button-container > div {
+        font-size: 2rem;
+    }
+}

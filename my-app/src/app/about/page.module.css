@@ -1,0 +1,31 @@
+.intro, 
+.quality,
+.headquarters {
+    margin-bottom: 120px;
+}
+
+.commitment {
+    margin-bottom: 198px;
+}
+
+@media (min-width: 45rem) {
+    .intro,
+    .quality, 
+    .headquarters {    
+        margin-bottom: 144px;
+    }
+    .commitment {
+        margin-bottom: 304px;
+    }
+}
+
+@media (min-width: 69rem) {
+    .intro,
+    .quality,
+    .headquarters {
+        margin-bottom: 168px;
+    }
+    .commitment {
+        margin-bottom: 256px;
+    }
+}

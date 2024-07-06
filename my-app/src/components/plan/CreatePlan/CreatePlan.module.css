@@ -1,0 +1,39 @@
+.container {
+    margin-bottom: 120px;
+}
+
+.topics {
+    display: none;
+}
+
+@media (min-width: 45rem) {
+    .container {
+        margin-bottom: 144px;
+    }
+}
+
+@media (min-width: 69rem) {
+    .container {
+        padding: 0 85px;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 125px;
+        margin-bottom: 168px;
+    }
+    .topics {
+        display: block;
+    }
+}
+
+/* summary text styling */
+
+.summary-text {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    font-family: "Fraunces";
+}
+
+.summary-text span {
+    color: var(--dark-cyan);
+}
